@@ -1,0 +1,9 @@
+# The following are not needed due to other Congo configs
+# baseURL = 'https://tensor.group/'
+# languageCode = 'en-us'
+# title = 'Tensor Group'
+
+[module]
+  [[module.imports]]
+    path = 'github.com/jpanther/congo/v2'
+

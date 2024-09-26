@@ -3,19 +3,19 @@ languageName = "English"
 languageDirection = "ltr"
 weight = 1
 
-title = "Tensor Group"
+# title = "Tensor Group"
 # copyright = "Copy, _right?_ :thinking_face:"
 
 [params]
   dateFormat = "2 January 2006"
 
   # mainSections = ["section1", "section2"]
-  # description = "My awesome website"
+  description = "Bridge the gap between your wildest imagination and tangible technology prototypes"
 
 [params.author]
-  # name = "Your name here"
+  name = "Tensor Group, LLC"
   # image = "img/author.jpg"
-  # headline = "I'm only human"
+  headline = "Imagination-First, Technology Consulting & Prototyping"
   # bio = "A little bit about you"
   # links = [
   #   { email = "mailto:hello@your_domain.com" },

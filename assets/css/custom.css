@@ -1,0 +1,91 @@
+/* Centering the tree image and aligning content */
+.tree-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px; /* Adds space below the image */
+}
+
+/* Grid layout for the service sections */
+.service-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Three-column layout */
+    gap: 40px; /* Spacing between the columns */
+    text-align: center;
+    margin-top: 40px;
+}
+
+.service-grid h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.service-grid p {
+    font-size: 1rem;
+    color: #555; /* Slate gray for body text */
+}
+
+/* Style for headings and body text */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    color: #111; /* Darker text for headings */
+    margin-top: 20px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: #555; /* Slightly lighter slate gray for body text */
+    line-height: 1.6;
+}
+
+/* Adjusts link color */
+a {
+    color: #228b22; /* Medium dark green for links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #196619; /* Darker green for hover effect */
+}
+
+/* Call to action button style */
+.cta-button {
+    display: inline-block;
+    background-color: #228b22; /* Medium dark green */
+    color: white;
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #196619; /* Darker green on hover */
+}
+
+/* Styling for horizontal rule */
+hr {
+    border: 0;
+    height: 1px;
+    background: #e0e0e0; /* Light gray divider line */
+    margin: 40px 0;
+}
+
+/* Adds fade-in effect for content */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
